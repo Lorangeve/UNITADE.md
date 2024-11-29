@@ -12,7 +12,7 @@
  *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -20,7 +20,7 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- * 
+ *
  * Any code and/or API associated with OBSIDIAN behaves as stated in their distribution policy.
  */
 
@@ -30,203 +30,203 @@
  */
 export const LOCALES_ZH = {
     "UNITADE_SETTINGS_COMMON": {
-        0: "UNITADE's settings:",
-        1: "Errors:",
-        2: "Advanced block",
-        3: "Code editor block",
-        4: "Additionals",
+        0: "UNITADE的设置：",
+        1: "错误：",
+        2: "高级区块",
+        3: "代码编辑器区块",
+        4: "附加选项",
     },
     "SETTINGS_EXTENSIONS": {
-        0: "Extensions:",
-        1: "Enter the file extensions that should be registered with the vault and with which the application should start registering (taking into account): input must be separated by \"greater-than sign\" ('>').",
-        2: "Be careful with typing extensions in this block, it may start to \"spam\" errors and notifications: to avoid this, you can turn on silencing errors feature in additionals block of settings."
+        0: "扩展：",
+        1: "输入应注册到保险库中的文件扩展名，以及应该从中开始注册应用程序的文件扩展名（考虑到）：输入必须用“大于号”（'>'）分隔。",
+        2: "在此区块中输入扩展名时要小心，它可能开始“垃圾邮件”错误和通知：为了避免此问题，您可以在设置的附加选项区块中打开消除错误功能。",
     },
     "SETTINGS_MOBILE_SPECIFIC": {
-        0: "Mobile-specific:",
-        1: "Both this module's extensions and default specific extensions (if mobile settings are not set up) will be used on mobile devices if this mode is enabled."
+        0: "移动设备特定：",
+        1: "如果启用此模式，将在移动设备上使用此模块的扩展名和默认特定扩展名（如果未设置移动设备设置）。",
     },
     "SETTINGS_MD_OVERRIDE": {
-        0: "Enable markdown override:",
-        1: "If enabled, on plugin's initialization, disables markdown from OBSIDIAN's registry."
+        0: "启用Markdown覆盖：",
+        1: "如果启用，插件初始化时将禁用OBSIDIAN注册表中的Markdown。",
     },
     "SETTINGS_HARD_DELETE": {
-        0: "Hard-delete registry",
-        1: "On click, causes full hot-deletion of entire registry of extensions, every extension which Obsidian could read will be deleted. Use with caution or for debug."
+        0: "硬删除注册表",
+        1: "点击后，将完全热删除所有扩展注册表，Obsidian可以读取的每个扩展都将被删除。请谨慎使用或进行调试。",
     },
     "SETTINGS_HARD_LOAD": {
-        0: "Hard-load plugin's registry",
-        1: "On click, causes imitation of enabling plugin, meaning, reloading registries which are defined and set up within plugin's settings."
+        0: "硬加载插件注册表",
+        1: "点击后，模拟启用插件，即重新加载在插件设置中定义和设置的注册表。",
     },
     "SETTINGS_FORCED_EXTENSIONS": {
-        0: "Forced-view extensions:",
-        1: "Entered extensions, would be tried to be initialized through codemirror setup of editors enabling extension's view in OBSIDIAN app.",
-        2: "This functionality is in semi-demo because of OBSIDIAN's API unsupport for such features, it is more unstable on mobile devices."
+        0: "强制查看扩展：",
+        1: "输入的扩展名将尝试通过编辑器的codemirror设置初始化以在OBSIDIAN应用程序中启用扩展的视图。",
+        2: "由于OBSIDIAN的API不支持此功能，此功能处于半演示状态，在移动设备上更不稳定。",
     },
     "SETTINGS_ONLOAD_REGISTRY": {
-        0: "On-load extension registry:",
-        1: "If enabled, plugin will now registry every file's extension (this setting: last part of extensions sequence) when OBSIDIAN catches event of new file appearing in vault.",
-        2: "This mode is interchangeable (that is, disabled) when an unsafe on-load registry is enabled."
+        0: "加载时扩展注册表：",
+        1: "如果启用，插件将现在注册每个文件的扩展名（此设置：扩展名序列的最后部分），当OBSIDIAN捕捉到新文件出现在保险库中时。",
+        2: "当启用不安全的加载时注册表时，此模式是可互换的（即禁用）。",
     },
     "SETTINGS_ONLOAD_UNSAFE": {
-        0: "On-load unsafe extension registry:",
-        1: "If enabled, plugin will now registry every file's extension (this setting: every part of extensions sequence) when OBSIDIAN catches event of new file appearing in vault.",
-        2: "This mode is interchangeable (that is, disabled) when a normal on-load registry is enabled."
+        0: "加载不安全的扩展注册表：",
+        1: "如果启用，插件将现在注册每个文件的扩展名（此设置：扩展名序列的每个部分），当OBSIDIAN捕捉到新文件出现在保险库中时。",
+        2: "当启用正常的加载时注册表时，此模式是可互换的（即禁用）。",
     },
     "SETTINGS_WARNING_MSG": {
-        0: "ATTENTION: this setting can cause a “spam attack” with extensions in the OBSIDIAN extension registry and damage some files due to the editing format of the application itself, be careful when using this functionality."
+        0: "注意：此设置可能导致OBSIDIAN扩展注册表中的扩展发起“垃圾邮件攻击”，并由于应用程序本身的编辑格式而损坏一些文件，使用此功能时要小心。",
     },
     "SETTINGS_IGNORE_MODE": {
-        0: "Ignore mode:",
-        1: "If enabled, plugin now would ignore specified type extensions by user input and files by regular expressions."
+        0: "忽略模式：",
+        1: "如果启用，插件现在将通过用户输入忽略指定类型的扩展和通过正则表达式忽略文件。",
     },
     "SETTINGS_IGNORE_EXTENSIONS": {
-        0: "Ignore extensions:",
-        1: "Enter the file extensions that should be ignored by plugin before add to registry by on-load registry."
+        0: "忽略扩展名：",
+        1: "输入应在加载时注册表之前被插件忽略的文件扩展名。",
     },
     "SETTINGS_IGNORE_FILES": {
-        0: "Ignore files (regular expressions):",
-        1: "Enter the file masks (regular expressions) by which files should be ignored by plugin."
+        0: "忽略文件（正则表达式）：",
+        1: "输入应该被插件忽略的文件的文件掩码（正则表达式）。",
     },
     "SETTINGS_IGNORE_MSG": {
-        0: "This settings works only for on-load registry functionality: meaning that ignoring extensions and files only works with only that functionality when the files are added to the vault."
+        0: "此设置仅适用于加载时注册表功能：这意味着仅当文件被添加到保险库时，忽略扩展名和文件才会起作用。",
     },
     "SETTINGS_GROUP_EXTENSIONS": {
-        0: "Grouped extensions:",
-        1: "Enter by specified syntax extensions which you want to treat as other custom extensions (groups are separated by (';') semicolons while values are separated by ('>') symbols).",
-        2: "For list of views view the docs of the plugin, more information on the wiki."
+        0: "分组的扩展名：",
+        1: "按指定的语法输入要视为其他自定义扩展名的扩展名（组由（';'）分号分隔，而值由（'>'）符号分隔）。",
+        2: "查看插件的文档以获取视图列表，更多信息，请参阅wiki。",
     },
     "SETTINGS_GROUP_MSG": {
-        0: "Keep in mind, this setting is unstable due entire infrastructure of plugin and OBSIDIAN's API, it is recommended to turn off every other setting and clear them if possible before using this module: you can setup every other module just in this block."
+        0: "请注意，由于整个插件和OBSIDIAN的API架构不稳定，建议在使用此模块之前关闭每个其他设置并尽可能清除它们：您可以仅在此区块中设置每个其他模块。",
     },
     "SETTINGS_BAREFILES": {
-        0: "Barefiles on-load registry:",
-        1: "If enabled, plugin will try to register files without extensions (so-called bare files): for files with only extension (so-called dot files) use on-load extension registry.",
-        2: "This settings registries empty extension, which could be done manually within extension settings block."
+        0: "加载时的裸文件注册表：",
+        1: "如果启用，插件将尝试注册没有扩展名的文件（所谓的裸文件）：对于仅具有扩展名的文件（所谓的点文件），请使用加载时扩展注册表。",
+        2: "此设置注册空扩展名，可以在扩展设置区块中手动完成。",
     },
     "MODALS_INCLUDE_REGISTRY": {
-        0: "Include in extensions registry:",
-        1: "If enabled, generated file's extension would be inserted in extensions array."
+        0: "包括在扩展注册表中：",
+        1: "如果启用，生成的文件的扩展名将被插入扩展名数组中。",
     },
     "SETTINGS_FORCE_UNLOAD": {
-        0: "Force-unload",
-        1: "On click, causes imitation of disabling plugin, meaning, reloading registry of extensions in vault to default mode."
+        0: "强制卸载",
+        1: "点击后，导致模拟禁用插件，即重新加载保险库中扩展的注册表以默认模式。",
     },
     "SETTINGS_RELOAD_REGISTRIES": {
-        0: "Reload registries",
-        1: "Reloads views and registries extensions providing new settings and data to the app and keeping experience up-to-date with config."
+        0: "重新加载注册表",
+        1: "重新加载视图和注册表扩展，提供新的设置和数据给应用程序，并保持体验与配置的最新状态。",
     },
     "SETTINGS_DEBUG_MODE": {
-        0: "Debug mode:",
-        1: "This mode starts output in application's console about actions you do.",
-        2: "Do not use this mode if you are not developer or familliar with console."
+        0: "调试模式：",
+        1: "此模式在应用程序的控制台中开始输出您执行的操作。",
+        2: "如果您不是开发人员或不熟悉控制台，请勿使用此模式。",
     },
     "SETTINGS_SILENCE_ERRORS": {
-        0: "Silence errors:",
-        1: "This mode silences every error and disables notifications: could help in case of error spamming."
+        0: "消除错误：",
+        1: "此模式消除每个错误并禁用通知：在错误“垃圾邮件”情况下可能有所帮助。",
     },
     "MODAL_EDIT_EXTENSION": {
-        0: "Edit extension"
+        0: "编辑扩展名",
     },
     "MODAL_CREATE_WITH_EXTENSION": {
-        0: "Create with extension"
+        0: "使用扩展名创建",
     },
     "MODAL_EDIT_MULTIPLE": {
-        0: "Edit multiple extensions",
-        1: "Rename multiple files"
+        0: "编辑多个扩展名",
+        1: "重命名多个文件",
     },
     "SETTINGS_COMPATIBILITY": {
-        0: "Compatibility module:",
-        1: "If turned on, plugin on it's start would try to parse configs of it's past versions to new config with old data: may be unstable, turned off by default."
+        0: "兼容性模块：",
+        1: "如果打开，插件在启动时会尝试解析过去版本的配置到具有旧数据的新配置：可能不稳定，默认情况下关闭。",
     },
     "SETTINGS_COMPATIBILITY_BUTTON": {
-        0: "Make config compatible",
-        1: "Upon click, plugin would try to make config compatible with it's new functionality and config iteration."
+        0: "使配置兼容",
+        1: "点击后，插件将尝试使配置与其新功能和配置迭代兼容。",
     },
     "BUTTON_WIKI": {
-        0: "Open plugin's wiki",
-        1: "Upon click, redirects to the GitHub's wiki page of project which contains documentation about entire plugin.",
-        2: "This would redirect you in external link. Internet access required.",
-        3: "Open wiki"
+        0: "打开插件的wiki",
+        1: "点击后，将重定向到项目的GitHub wiki页面，其中包含有关整个插件的文档。",
+        2: "这将将您重定向到外部链接。需要互联网访问。",
+        3: "打开wiki",
     },
     "MODAL_INCLUDE_IN_REGISTRY": {
-        0: "Include in extensions registry:",
-        1: "If enabled, generated file's extension would be inserted in extensions array."
+        0: "包括在扩展注册表中：",
+        1: "如果启用，生成的文件的扩展名将被插入扩展名数组中。",
     },
     "ERROR_REGISTRY_EXTENSION": {
-        0: "Could not register extension: {0} to view as {1}.\nIt's already registered.",
-        1: "Could not register extension: {0} to view as {1}.\n{2}",
-        2: "Couldn't unregistry extension: {0}.",
-        3: "Error with registering extensions:"
+        0: "无法将扩展名：{0} 注册为 {1}。\n它已经注册。",
+        1: "无法将扩展名：{0} 注册为 {1}。\n{2}",
+        2: "无法注销扩展名：{0}。",
+        3: "注册扩展名时出错：",
     },
     "ERROR_COMMON_MESSAGE": {
-        0: "Error from UNITADE plugin:"
+        0: "来自UNITADE插件的错误：",
     },
     "SETTINGS_CASE_INSENSITIVE": {
-        0: "Case insensitive mode:",
-        1: "If turned on, plugin would registry every upper and lower case variations of extension to provide Windows-like experience for extension.",
-        2: "Unstable on UNIX-systems.",
-        3: "CAUTION: this mode can potentially \"infinitly\" crash your Vault if you got too many extensions and/or massive extensions, be extra cautious when using this mode!"
+        0: "大小写不敏感模式：",
+        1: "如果启用，插件将注册扩展名的每个大写和小写变体，以提供类似Windows的扩展体验。",
+        2: "UNIX系统上不稳定。",
+        3: "注意：此模式可能会在您有太多扩展名和/或大量扩展名时“无限”崩溃您的保险库，请在使用此模式时格外小心！",
     },
     "MODAL_EDIT_FENCE": {
-        0: "Edit code fence"
+        0: "编辑代码围栏",
     },
     "SETTINGS_CODE_EDITOR": {
-        0: "Enable code editor module:",
-        1: "This mode will enable code editor functionalities like syntax highlighting, IntelliSence and etc.",
-        2: "May cause lags and other issues.",
-        3: "Font settings for code editor:"
+        0: "启用代码编辑器模块：",
+        1: "此模式将启用代码编辑器功能，例如语法高亮，智能感应等。",
+        2: "可能会导致延迟和其他问题。",
+        3: "代码编辑器的字体设置：",
     },
     "CODE_EDITOR_USE_DEFAULT": {
-        0: "Use default extensions:",
-        1: "If disabled, code editor module will require to input its own extensions, otherwise, it would use \"simple\" extensions from config.",
-        2: "This block also can be replaced by grouped extensions.",
-        3: "Be aware, this extensions must be excluding from every other, otherwise error with rendering may occure, to \"clone\" extensions, use specified feature.",
+        0: "使用默认扩展：",
+        1: "如果禁用，代码编辑器模块将需要输入自己的扩展名，否则，它将使用配置中的“简单”扩展名。",
+        2: "此块也可以由分组的扩展名替换。",
+        3: "请注意，这些扩展名必须从每个其他扩展名中排除，否则可能会出现呈现错误，请使用指定的功能来“克隆”扩展名。",
     },
     "CODE_EDITOR_FOLDING": {
-        0: "Enable folding:",
-        1: "A feature that allows you to hide (collapse) parts of your code to improve readability."
+        0: "启用折叠：",
+        1: "一项功能，允许您隐藏（折叠）代码的部分以提高可读性。",
     },
     "CODE_EDITOR_LINE_NUMBERS": {
-        0: "Line numbers:",
-        1: "Feature to display line numbers in the editor."
+        0: "行数：",
+        1: "在编辑器中显示行号的功能。",
     },
     "CODE_EDITOR_WORD_WRAPPING": {
-        0: "Word wrapping:",
-        1: "Feature that allows text to automatically wrap to the next line if it exceeds the width of the editor."
+        0: "自动换行：",
+        1: "功能允许文本在超出编辑器宽度时自动换行到下一行。",
     },
     "CODE_EDITOR_MINIMAPPING": {
-        0: "Enable minimapping:",
-        1: "Feature that provides a thumbnail view of the entire document."
+        0: "启用缩略图：",
+        1: "提供整篇文档的缩略图视图的功能。",
     },
     "CODE_EDITOR_SEMANTIC_VALIDATION": {
-        0: "Enable semantic validation:",
-        1: "This process checks the code for logical errors and the correct use of variables, functions, and other elements. Semantic validation takes into account the context and meaning of the code."
+        0: "启用语义验证：",
+        1: "此过程检查代码是否存在逻辑错误以及变量、函数和其他元素的正确使用。语义验证考虑到代码的上下文和含义。",
     },
     "CODE_EDITOR_SYNTAX_VALIDATION": {
-        0: "Enable syntax validation:",
-        1: "This process checks code for errors related to its structure and syntax. It analyzes whether the code follows the rules of the programming language."
+        0: "启用语法验证：",
+        1: "此过程检查代码是否存在与其结构和语法相关的错误。它分析代码是否遵循编程语言的规则。",
     },
     "CODE_EDITOR_EDIT_THEME": {
-        0: "Editor theme:",
-        1: "Choose specific theme for code editor, visually affects syntax highlighting."
+        0: "编辑器主题：",
+        1: "为代码编辑器选择特定主题，视觉上影响语法高亮。",
     },
     "CODE_EDITOR_FONT_SIZE": {
-        0: "Font size:"
+        0: "字体大小：",
     },
     "CODE_EDITOR_FONT_FAMILY": {
-        0: "Font family:",
-        1: "Write here existing font families and fonts themselves: input format like in any code editor."
+        0: "字体系列：",
+        1: "在此处输入现有的字体系列和字体本身：输入格式与任何代码编辑器中相同。",
     },
     "CODE_EDITOR_FONT_LIGATURES": {
-        0: "Font ligatures:",
-        1: "If your font supports ligatures, you can turn them on.",
-        2: "If ligatures are not supported by font, this would not work."
+        0: "字体连字：",
+        1: "如果您的字体支持连字，您可以打开它们。",
+        2: "如果字体不支持连字，这将不起作用。",
     },
     "MODAL_INCLUDE_IN_CODE_EDITOR": {
-        0: "Include in code editor module:",
-        1: "If enabled, created file would be treated with code editor module instead of just default vanilla extensions as markdown system.",
-        2: "If both modes are enabled, it can cause unstable behaviour.",
-        3: "If file is treated with both code editor module and default extensions-as-markdown system it can cause unstable behaviour with rendering system, use both modes if your file is an edge-case.",
-        4: "If code editor module uses default extensions array (with setting \"use default extensions\"), extension would be inserted in default extensions array, otherwise, it would be inserted in code editor extensions array."
-    }
+        0: "包括在代码编辑器模块中：",
+        1: "如果启用，创建的文件将被视为代码编辑器模块而不仅仅是默认的vanilla扩展名作为Markdown系统。",
+        2: "如果两种模式都启用，可能会引起不稳定的行为。",
+        3: "如果文件同时使用代码编辑器模块和默认扩展名作为Markdown系统，可能会导致呈现系统的不稳定行为，如果您的文件是一个特殊案例，请同时使用两种模式。",
+        4: "如果代码编辑器模块使用默认扩展名数组（具有“使用默认扩展名”的设置），扩展名将被插入默认扩展名数组中，否则将被插入代码编辑器扩展名数组中。",
+    },
 };
